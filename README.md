@@ -41,11 +41,15 @@ Each row represents a tumor instance, with 30 numerical features derived from di
    - Dataset download
    - Cleaning and formatting
 
+  > Initial dataset [breast_df.csv](#data/breast_df.csv)
+
 2. **Exploratory Data Analysis (EDA)**
    - Class distribution
    - Feature density plots
    - Boxplots by diagnosis
    - Correlation heatmap
+     
+  > Plot images in [Plots folder](#plots)
 
 3. **Feature Engineering**
    - Standardization (`StandardScaler`)
@@ -64,6 +68,7 @@ Each row represents a tumor instance, with 30 numerical features derived from di
      - F1 Score
      - Precision & Recall
      - Confusion Matrix
+     - MCC
      - ROC Curve & AUC
 
 5. **Model Comparison**
@@ -80,6 +85,8 @@ Each row represents a tumor instance, with 30 numerical features derived from di
 | **Modeling & Evaluation** | `scikit-learn`               |
 
 ---
+
+## Project Data 
 
 
 ## Author 
