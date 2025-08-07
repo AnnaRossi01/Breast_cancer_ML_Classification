@@ -84,7 +84,9 @@ Each row represents a tumor instance, with 30 numerical features derived from di
 
 ## Author 
 Rossi Anna
+
 Project for AML Baic Course of Bioinformatics Master's degree at Bologna University
+
 anna.rossi18@studio.unibo.it
 
 
