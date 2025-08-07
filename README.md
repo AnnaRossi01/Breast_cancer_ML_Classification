@@ -41,7 +41,7 @@ Each row represents a tumor instance, with 30 numerical features derived from di
    - Dataset download
    - Cleaning and formatting
 
-  > Initial dataset [breast_df.csv](#data/breast_df.csv)
+  > Initial dataset [breast_df.csv](data/breast_df.csv)
 
 2. **Exploratory Data Analysis (EDA)**
    - Class distribution
@@ -49,7 +49,7 @@ Each row represents a tumor instance, with 30 numerical features derived from di
    - Boxplots by diagnosis
    - Correlation heatmap
      
-  > Plot images in [Plots folder](#plots)
+  > Plot images in [Plots folder](plots)
 
 3. **Feature Engineering**
    - Standardization (`StandardScaler`)
