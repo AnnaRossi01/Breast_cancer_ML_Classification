@@ -2,7 +2,6 @@ import os
 import joblib
 import matplotlib.pyplot as plt
 import pandas as pd
-import subprocess
 
 
 # 1. Setup folders
@@ -52,3 +51,4 @@ def log_metrics(metrics, name):
     path = f'reports/metrics/{name}'
     pd.DataFrame(metrics).to_csv(f'{path}.csv', index=False)
     print(f"Metrics saved: {path}.*")
+
