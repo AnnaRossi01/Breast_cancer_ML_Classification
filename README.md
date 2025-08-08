@@ -2,7 +2,7 @@
 
 ![Difference between Benign (left) and Malignant (right) cells](brastcancer_cells.png)
 
-## Table of Contents
+## Index
 
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
