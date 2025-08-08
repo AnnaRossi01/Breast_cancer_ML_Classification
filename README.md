@@ -88,7 +88,7 @@ Each row represents a tumor instance, with 30 numerical features derived from di
 4. **Model Comparison**
    - Visual and tabular comparison of performance across models
 
-> Final evaluation of model's performance [results_models](data/results_models)
+> Final evaluation of model's performance [results_models](rsults/results_models.csv)
 ---
 
 ## Tools Used
@@ -121,6 +121,10 @@ Each row represents a tumor instance, with 30 numerical features derived from di
 
 ## AML basic Course materials
 - Course repository with Slides and Notebook [Repository](https://drive.google.com/drive/folders/1ZrQpF_F9E45yQTO9mG8Izr3LaECVH0aH)
+
+## Scipt for exporting pipeline reults 
+I implemented a Python script for exporting all the important output obtained with the pipeline, such as plots, models, and datasets. 
+[saving.py](script/saving.py)
 
 ## Author 
 Rossi Anna
