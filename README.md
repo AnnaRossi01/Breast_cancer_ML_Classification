@@ -41,7 +41,7 @@ Each row represents a tumor instance, with 30 numerical features derived from di
    - Dataset download
    - Cleaning and formatting
 
-  > Initial dataset [breast_df.csv](data/breast_df.csv)
+  > Initial dataset [breast_df.csv](data/breast_df.csv.csv)
 
 2. **Exploratory Data Analysis (EDA)**
    - Class distribution
@@ -52,8 +52,17 @@ Each row represents a tumor instance, with 30 numerical features derived from di
   > Plot images in [Plots folder](plots)
 
 3. **Feature Engineering**
+   - Split in Training (80%) and Test (20%) sets (`train_test_split`)
    - Standardization (`StandardScaler`)
    - Feature selection (`SelectKBest`, `RFE`)
+
+  > Initial Training set [X_train](X_train)
+  > Initial Test set [X_test](X_test)
+  > Labels of Training set [Y_train](Y_train)
+  > Labels of Test set [Y_test](Y_test)
+  > Dataset Scaled  [X_train_scaled](X_train_scaled),[X_test_scaled](X_test_scaled)
+  > Dataset with only the selected features [X_train_sel](X_train_sel), [X_test_sel](X_test_sel)
+  > Labels of selected features Dataset [y_train_sel](y_train_sel), [y_test_sel](y_test_sel)
 
 4. **Model Training & Evaluation**
    - Algorithms:
@@ -63,6 +72,9 @@ Each row represents a tumor instance, with 30 numerical features derived from di
      - Decision Tree
      - Naive Bayes
      - Support Vector Machine (SVM)
+
+  > Models in [Models folder](models)
+
    - Evaluation metrics:
      - Accuracy
      - F1 Score
@@ -71,9 +83,12 @@ Each row represents a tumor instance, with 30 numerical features derived from di
      - MCC
      - ROC Curve & AUC
 
-5. **Model Comparison**
+  > ROC Curve & AUC and COnfusion Matrix plots in [Plots folder](plots)
+
+4. **Model Comparison**
    - Visual and tabular comparison of performance across models
 
+> Final evaluation of model's performance [results_models](data/results_models)
 ---
 
 ## Tools Used
@@ -85,9 +100,6 @@ Each row represents a tumor instance, with 30 numerical features derived from di
 | **Modeling & Evaluation** | `scikit-learn`               |
 
 ---
-
-## Project Data 
-
 
 ## Author 
 Rossi Anna
