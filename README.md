@@ -56,12 +56,12 @@ Each row represents a tumor instance, with 30 numerical features derived from di
    - Feature selection (`SelectKBest`, `RFE`)
 
   > - Initial Training set [X_train](data/X_train.csv)  
-  > - Initial Test set [X_test](data/X_test)  
-  > - Labels of Training set [Y_train](data/Y_train)  
-  > - Labels of Test set [Y_test](data/Y_test)  
-  > - Dataset Scaled [X_train_scaled](data/X_train_scaled), [X_test_scaled](data/X_test_scaled)  
-  > - Dataset with only the selected features [X_train_sel](data/X_train_sel), [X_test_sel](data/X_test_sel)  
-  > - Labels of selected features Dataset [y_train_sel](data/y_train_sel), [y_test_sel](data/y_test_sel)  
+  > - Initial Test set [X_test](data/X_test.csv)  
+  > - Labels of Training set [Y_train](data/Y_train.csv)  
+  > - Labels of Test set [Y_test](data/Y_test.csv)  
+  > - Dataset Scaled [X_train_scaled](data/X_train_scaled.csv), [X_test_scaled](data/X_test_scaled.csv)  
+  > - Dataset with only the selected features [X_train_sel](data/X_train_sel.csv), [X_test_sel](data/X_test_sel.csv)  
+  > - Labels of selected features Dataset [y_train_sel](data/y_train_sel.csv), [y_test_sel](data/y_test_sel.csv)  
 
 
 4. **Model Training & Evaluation**
