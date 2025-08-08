@@ -55,7 +55,7 @@ Each row represents a tumor instance, with 30 numerical features derived from di
    - Standardization (`StandardScaler`)
    - Feature selection (`SelectKBest`, `RFE`)
 
-  > - Initial Training set [X_train](data/X_train)  
+  > - Initial Training set [X_train](data/X_train.csv)  
   > - Initial Test set [X_test](data/X_test)  
   > - Labels of Training set [Y_train](data/Y_train)  
   > - Labels of Test set [Y_test](data/Y_test)  
