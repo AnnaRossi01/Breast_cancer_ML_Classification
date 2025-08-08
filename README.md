@@ -55,13 +55,13 @@ Each row represents a tumor instance, with 30 numerical features derived from di
    - Standardization (`StandardScaler`)
    - Feature selection (`SelectKBest`, `RFE`)
 
-  > Initial Training set [X_train](X_train)
-  > Initial Test set [X_test](X_test)
-  > Labels of Training set [Y_train](Y_train)
-  > Labels of Test set [Y_test](Y_test)
-  > Dataset Scaled  [X_train_scaled](X_train_scaled),[X_test_scaled](X_test_scaled)
-  > Dataset with only the selected features [X_train_sel](X_train_sel), [X_test_sel](X_test_sel)
-  > Labels of selected features Dataset [y_train_sel](y_train_sel), [y_test_sel](y_test_sel)
+  > - Initial Training set [X_train](X_train)
+    - Initial Test set [X_test](X_test)
+    - Labels of Training set [Y_train](Y_train)
+    - Labels of Test set [Y_test](Y_test)
+    - Dataset Scaled  [X_train_scaled](X_train_scaled),[X_test_scaled](X_test_scaled)
+    - Dataset with only the selected features [X_train_sel](X_train_sel), [X_test_sel](X_test_sel)
+    - Labels of selected features Dataset [y_train_sel](y_train_sel), [y_test_sel](y_test_sel)
 
 4. **Model Training & Evaluation**
    - Algorithms:
