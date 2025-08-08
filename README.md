@@ -13,8 +13,7 @@
 
 ## Project Overview
 
-This project applies a complete supervised machine learning pipeline to classify breast cancer tumors as **benign** or **malignant**, using clinical diagnostic features.  
-The objective is to identify the best-performing model to support **early and accurate tumor detection**, improving decision-making in medical diagnostics.
+This project applies a supervised machine learning pipeline to classify breast cancer tumors as **benign** or **malignant**, using clinical diagnostic features obtained from cell nuclei images.  The objective is to find the most effective model that aids in detecting tumors quickly and accurately, which will enhance decision-making in medical diagnostics.
 
 ---
 
@@ -100,6 +99,27 @@ Each row represents a tumor instance, with 30 numerical features derived from di
 | **Modeling & Evaluation** | `scikit-learn`               |
 
 ---
+
+## References
+
+- [User Guide](https://scikit-learn.org/stable/user_guide.html) – Overview of preprocessing, pipelines, supervised/unsupervised models, and model selection.  
+- [Getting Started](https://scikit-learn.org/stable/getting_started.html) – Quick intro to fitting, predicting, pipelines, and hyperparameter search.  
+- [API Reference](https://scikit-learn.org/stable/api/index.html) – Complete list of classes and functions.
+
+### Key modules used
+- [Linear Models](https://scikit-learn.org/stable/modules/linear_model.html)  
+- [Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)  
+- [Model Selection](https://scikit-learn.org/stable/modules/model_selection.html)  
+- [Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)  
+- [SVM](https://scikit-learn.org/stable/modules/svm.html)  
+- [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)  
+- [Decision Trees](https://scikit-learn.org/stable/modules/tree.html)  
+- [Neighbors](https://scikit-learn.org/stable/modules/neighbors.html)  
+- [Discriminant Analysis](https://scikit-learn.org/stable/modules/lda_qda.html)  
+- [Feature Selection](https://scikit-learn.org/stable/modules/feature_selection.html)  
+
+## AML basic Course materials
+- Course repository with Slides and Notebook [Repository](https://drive.google.com/drive/folders/1ZrQpF_F9E45yQTO9mG8Izr3LaECVH0aH)
 
 ## Author 
 Rossi Anna
